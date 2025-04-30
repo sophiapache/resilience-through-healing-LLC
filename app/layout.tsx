@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Serif_Display } from "next/font/google";
+import { Lexend } from "next/font/google";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +13,20 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const notoSerifDisplay = Noto_Serif_Display({
+  subsets: ["latin"],
+  weight: ["500"],
+  variable: "--font-noto-serif-display",
+  display: "swap",
+});
+
+const lexend = Lexend({
+  subsets: ["latin"],
+  weight: ["500"],
+  variable: "--font-lexend",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${notoSerifDisplay.variable} ${notoSerifDisplay.variable} ${lexend.variable} antialiased`}
       >
         {children}
       </body>
