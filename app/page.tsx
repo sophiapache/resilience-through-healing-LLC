@@ -1,18 +1,35 @@
-// app/page.tsx
-import Link from "next/link";
-
-// app/page.tsx
-import Image from "next/image";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import IntroSection from "../components/IntroSection";
+import BulletPoints from "../components/BulletPoints";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[oklch(0.98_0.03_80)] text-[oklch(0.30_0.05_100)] font-serif">
       <Header />
       <Hero />
-      <IntroSection />
+      <section className="bg-[#f8f5f1] py-20 px-4 text-center">
+        <p className="text-base text-[oklch(0.45_0.05_50)] font-medium mb-4">
+          Team
+        </p>
+        <h2 className="text-xl sm:text-5xl font-serif text-[oklch(0.25_0.06_70)] font-semibold leading-tight mb-6">
+          A Holistic Path to Wholeness
+        </h2>
+        <p className="max-w-3xl mx-auto text-base text-[oklch(0.4_0.03_60)]">
+          Therapy isn’t about fixing what’s “wrong” or trying to return to a
+          past version of yourself. It’s about unpacking your experiences,
+          breaking free from old patterns, and stepping into the person you were
+          always meant to be. Your past doesn’t define your future. Instead, it
+          can serve as a guide to help you overcome fears and emotional
+          blockages in both your mind and body. I’m here to help you:
+          <BulletPoints />
+          Through a holistic approach, I integrate mind, body, and spirit in the
+          healing process. Talk therapy alone isn’t always enough, especially
+          when past trauma overwhelms the nervous system. That’s why I
+          incorporate body-based techniques to help regulate emotions and
+          restore balance. Your transformation starts here. Let’s work together
+          to create the life you want to live.
+        </p>
+      </section>
     </main>
   );
 }
