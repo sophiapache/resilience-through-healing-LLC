@@ -1,21 +1,43 @@
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
+import BulletPoints from "../../components/BulletPoints";
+import CheckMarks from "../../components/CheckMarks";
 
 function AboutMe() {
+  const bulletItems = [
+    "Trauma recovery (all forms)",
+    "Sex addiction",
+    "Body image and eating disorders",
+  ];
+  const checkBoxOneItems = [
+    "Certified Eating Disorder Specialist (CEDS) – International Association of Eating Disorder Professionals",
+    "Certified Sex Addiction Therapist (CSAT) – International Institute for Trauma andAddiction Professionals",
+  ];
+  const checkBoxTwoItems = [
+    "Addictive and maladaptive behaviors",
+    "Codependency and relationship challenges",
+    "Anxiety and depression",
+  ];
+  const checkBoxThreeItems = [
+    "EMDR (Eye Movement Desensitization and Reprocessing)",
+    "Accelerated Resolution Therapy (ART)",
+    "Cognitive Behavioral Therapy (CBT)",
+    "Dialectical Behavioral Therapy (DBT)",
+    "Somatic and experiential therapies",
+  ];
   return (
     <main>
       <Header />
       <Hero />
-      <section className="bg-[oklch(0.97_0.02_70)] py-20 px-6">
+      <section className="bg-[oklch(0.97_0.02_70)] py-7 px-6">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-4xl font-extrabold text-[oklch(0.25_0.06_70)] mb-4">
+          <h1 className="text-3xl font-extrabold text-[oklch(0.25_0.06_70)] mb-4">
             Claudia Y. Pache, LMHC, MBA, CSAT, CEDS, RYT200, ART trained
           </h1>
           <p className="text-lg text-[oklch(0.30_0.05_50)] max-w-2xl mx-auto">
-            Hi, I'm [Your Name], a dedicated practitioner focused on healing and
-            resilience. With years of experience in holistic wellness, my goal
-            is to support your journey inward through mindfulness, movement, and
-            compassionate guidance.
+            I am a licensed Mental Health Counselor and Certified Clinical
+            Trauma Therapist, specializing in:
+            <BulletPoints items={bulletItems} />
           </p>
         </div>
       </section>
@@ -23,32 +45,38 @@ function AboutMe() {
       <section className="bg-[oklch(0.98_0.01_85)] py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-semibold text-[oklch(0.25_0.06_70)] mb-2">
-            My Approach
+            My Specialties
           </h2>
-          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto">
-            I integrate various practices including yoga, breathwork, and
-            somatic healing to support your personal growth. Whether you're
-            seeking peace, recovery, or clarity, we'll work together to
-            reconnect with your inner strength.
-          </p>
+          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto"></p>
 
-          <div className="grid md:grid-cols-2 gap-8 text-left">
-            <div className="bg-white rounded-xl p-6 shadow-md">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="bg-white rounded-xl p-8 shadow-md">
               <h3 className="text-xl font-bold text-[oklch(0.25_0.06_70)] mb-2">
-                Trauma-Informed
+                I hold certifications as a:
               </h3>
               <p className="text-[oklch(0.30_0.05_50)]">
-                Sessions are held with deep care and awareness of trauma
-                responses. Your nervous system's safety is central to the work.
+                <CheckMarks items={checkBoxOneItems} />
               </p>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-md">
+            <div className="bg-white rounded-xl p-8 shadow-md">
               <h3 className="text-xl font-bold text-[oklch(0.25_0.06_70)] mb-2">
-                Personalized Sessions
+                Beyond my specialties, I also work with:
               </h3>
               <p className="text-[oklch(0.30_0.05_50)]">
-                Every session is tailored to your body, needs, and current
-                season of life—blending structure with intuition.
+                <CheckMarks items={checkBoxTwoItems} />
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-10 flex justify-center">
+            <div className="bg-white rounded-xl p-8 shadow-md max-w-xl w-full">
+              <h3 className="text-xl font-bold text-[oklch(0.25_0.06_70)] mb-2 text-center">
+                I have extensive experience in world-class trauma treatment
+                facilities and hold advanced training in multiple therapeutic
+                modalities, including:
+              </h3>
+              <p className="text-[oklch(0.30_0.05_50)] text-center">
+                <CheckMarks items={checkBoxThreeItems} />
               </p>
             </div>
           </div>

@@ -1,12 +1,12 @@
-type BulletPointsProps = {
+type CheckMarksProps = {
   items: string[];
 };
 
-const BulletPoints = ({ items }: BulletPointsProps) => {
+const CheckMarks = ({ items }: CheckMarksProps) => {
   return (
-    <ul className="space-y-8 mt-16 mb-16">
+    <ul className="space-y-8 mt-10 mb-10">
       {items.map((item, index) => (
-        <li key={index} className="flex items-center gap-3">
+        <li key={index} className="flex items-center gap-5">
           <span className="inline-block">
             <svg
               className="w-5 h-5 text-[oklch(0.45_0.05_50)]"
@@ -18,7 +18,7 @@ const BulletPoints = ({ items }: BulletPointsProps) => {
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M8 5v14l11-7L8 5z"
+                d="M5 13l4 4L19 7"
               />
             </svg>
           </span>
@@ -31,4 +31,4 @@ const BulletPoints = ({ items }: BulletPointsProps) => {
   );
 };
 
-export default BulletPoints;
+export default CheckMarks;

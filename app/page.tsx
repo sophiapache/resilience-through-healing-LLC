@@ -3,6 +3,12 @@ import Hero from "../components/Hero";
 import BulletPoints from "../components/BulletPoints";
 
 export default function Home() {
+  const bulletItems = [
+    "Build a deeper connection with yourself and others",
+    "Reclaim your self-worth and agency",
+    "Move beyond limiting narratives",
+    "Find clarity, hope, and self-compassion",
+  ];
   return (
     <main className="min-h-screen bg-[oklch(0.98_0.03_80)] text-[oklch(0.30_0.05_100)] font-serif">
       <Header />
@@ -21,7 +27,7 @@ export default function Home() {
           always meant to be. Your past doesn’t define your future. Instead, it
           can serve as a guide to help you overcome fears and emotional
           blockages in both your mind and body. I’m here to help you:
-          <BulletPoints />
+          <BulletPoints items={bulletItems} />
           Through a holistic approach, I integrate mind, body, and spirit in the
           healing process. Talk therapy alone isn’t always enough, especially
           when past trauma overwhelms the nervous system. That’s why I
