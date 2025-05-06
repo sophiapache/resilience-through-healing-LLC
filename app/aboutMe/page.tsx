@@ -88,12 +88,8 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        <section className="py-7 px-6">
-          <div className="max-w-5xl mx-auto text-center">
-            <p className="text-lg text-[oklch(0.30_0.05_50)] max-w-2xl mx-auto">
-              <TextImageSplit />
-            </p>
-          </div>
+        <section className="py-7 px-6 max-w-5xl mx-auto">
+          <TextImageSplit />
         </section>
       </section>
     </main>
