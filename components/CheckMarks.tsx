@@ -4,9 +4,9 @@ type CheckMarksProps = {
 
 const CheckMarks = ({ items }: CheckMarksProps) => {
   return (
-    <ul className="space-y-8 mt-10 mb-10">
+    <ul className="space-y-4 mt-5 mb-5">
       {items.map((item, index) => (
-        <li key={index} className="flex items-center gap-5">
+        <li key={index} className="flex items-center">
           <span className="inline-block">
             <svg
               className="w-5 h-5 text-[oklch(0.45_0.05_50)]"
