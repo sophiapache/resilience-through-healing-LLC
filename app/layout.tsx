@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Noto_Serif_Display } from "next/font/google";
 import { Lexend } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 
 import "./globals.css";
 
@@ -17,15 +18,22 @@ const geistMono = Geist_Mono({
 
 const notoSerifDisplay = Noto_Serif_Display({
   subsets: ["latin"],
-  weight: ["500"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-noto-serif-display",
   display: "swap",
 });
 
 const lexend = Lexend({
   subsets: ["latin"],
-  weight: ["500"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-lexend",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-playfair-display",
   display: "swap",
 });
 
@@ -42,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${notoSerifDisplay.variable} ${lexend.variable} antialiased font-display`}
+        className={`${notoSerifDisplay.variable} ${playfair.variable} ${lexend.variable} antialiased font-display tracking-tight`}
       >
         {children}
       </body>

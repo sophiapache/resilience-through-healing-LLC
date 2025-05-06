@@ -15,14 +15,14 @@ const Hero = () => {
           <h1 className="text-4xl font-bold mb-4 text-[oklch(0.25_0.06_50)] leading-tight">
             Welcome to My Therapy Practice
           </h1>
-          <p className="text-base mb-6 text-[oklch(0.35_0.04_80)]">
+          <p className="text-base mb-6 text-[oklch(0.35_0.04_80)] text-lg">
             Many people come to me feeling stuck, overwhelmed, or questioning,
             &quot;What&#39;s wrong with me?&quot; The weight of these
             emotions—shame, unworthiness, and isolation—can make it difficult to
             move forward. If this resonates with you, I want you to know:
             healing and empowerment are possible.
           </p>
-          <button className="bg-[oklch(0.55_0.12_120)] text-white px-5 py-3 rounded-full text-sm hover:bg-[oklch(0.45_0.10_120)] transition-colors">
+          <button className="bg-[oklch(0.55_0.12_120)] text-white px-5 py-3 rounded-full text-base hover:bg-[oklch(0.45_0.10_120)] transition-colors">
             Your Transformation Starts Here
           </button>
         </div>

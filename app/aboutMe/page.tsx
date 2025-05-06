@@ -48,7 +48,7 @@ function AboutMe() {
           <h2 className="text-3xl font-semibold text-[oklch(0.25_0.06_70)] mb-2">
             My Specialties
           </h2>
-          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto">
+          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto text-lg">
             My approach goes beyond traditional talk therapy, integrating
             mind-body techniques like Trauma-Sensitive Yoga. I focus on
             empowerment and individualized care to meet each client where they

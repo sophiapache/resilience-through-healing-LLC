@@ -8,6 +8,12 @@
   --foreground: #171717;
 }
 
+@layer base {
+  body {
+    @apply font-display tracking-tight text-[oklch(0.30_0.05_60)];
+  }
+}
+
 @theme {
   --font-display: "Merriweather", "serif";
   --font-body: "Inter", "sans-serif";
