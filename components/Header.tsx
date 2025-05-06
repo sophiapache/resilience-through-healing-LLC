@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+    <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto ">
       <div className="text-xl font-bold text-[oklch(0.25_0.06_70)]">
         Resilience Through Healing.
       </div>

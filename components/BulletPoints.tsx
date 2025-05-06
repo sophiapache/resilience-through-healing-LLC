@@ -4,7 +4,7 @@ type BulletPointsProps = {
 
 const BulletPoints = ({ items }: BulletPointsProps) => {
   return (
-    <ul className="space-y-8 mt-16 mb-16">
+    <ul className="space-y-8 mt-8 mb-8">
       {items.map((item, index) => (
         <li key={index} className="flex items-center gap-3">
           <span className="inline-block">

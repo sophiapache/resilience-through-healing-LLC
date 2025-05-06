@@ -10,7 +10,7 @@
 
 @layer base {
   body {
-    @apply font-display tracking-tight text-[oklch(0.30_0.05_60)];
+    @apply font-display tracking-tight text-[oklch(0.30_0.05_60) font-light];
   }
 }
 

@@ -32,7 +32,7 @@ function AboutMe() {
       <Hero />
       <section className="bg-[oklch(0.97_0.02_70)] py-7 px-6">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-3xl font-extrabold text-[oklch(0.25_0.06_70)] mb-4">
+          <h1 className="text-3xl font-extrabold text-[oklch(0.25_0.06_70)] mb-3">
             Claudia Y. Pache, LMHC, MBA, CSAT, CEDS, RYT200, ART trained
           </h1>
           <p className="text-lg text-[oklch(0.30_0.05_50)] max-w-2xl mx-auto">
