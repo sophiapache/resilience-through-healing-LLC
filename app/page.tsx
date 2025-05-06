@@ -14,9 +14,6 @@ export default function Home() {
       <Header />
       <Hero />
       <section className="bg-[#f8f5f1] py-20 px-4 text-center">
-        <p className="text-base text-[oklch(0.45_0.05_50)] font-medium mb-4">
-          Team
-        </p>
         <h2 className="text-xl sm:text-5xl font-serif text-[oklch(0.25_0.06_70)] font-semibold leading-tight mb-6">
           A Holistic Path to Wholeness
         </h2>

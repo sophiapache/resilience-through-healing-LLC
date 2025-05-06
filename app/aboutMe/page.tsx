@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import BulletPoints from "../../components/BulletPoints";
 import CheckMarks from "../../components/CheckMarks";
+import TextImageSplit from "../../components/TextImageSplit";
 
 function AboutMe() {
   const bulletItems = [
@@ -47,7 +48,13 @@ function AboutMe() {
           <h2 className="text-3xl font-semibold text-[oklch(0.25_0.06_70)] mb-2">
             My Specialties
           </h2>
-          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto"></p>
+          <p className="text-[oklch(0.30_0.05_50)] mb-12 max-w-2xl mx-auto">
+            My approach goes beyond traditional talk therapy, integrating
+            mind-body techniques like Trauma-Sensitive Yoga. I focus on
+            empowerment and individualized care to meet each client where they
+            are in their journey. There’s no one-size-fits-all therapy. Instead,
+            we co-create a path that supports your unique needs and goals.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="bg-white rounded-xl p-8 shadow-md">
@@ -81,6 +88,13 @@ function AboutMe() {
             </div>
           </div>
         </div>
+        <section className="py-7 px-6">
+          <div className="max-w-5xl mx-auto text-center">
+            <p className="text-lg text-[oklch(0.30_0.05_50)] max-w-2xl mx-auto">
+              <TextImageSplit />
+            </p>
+          </div>
+        </section>
       </section>
     </main>
   );

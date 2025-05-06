@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${notoSerifDisplay.variable} ${notoSerifDisplay.variable} ${lexend.variable} antialiased`}
+        className={`${notoSerifDisplay.variable} ${lexend.variable} antialiased font-display`}
       >
         {children}
       </body>
