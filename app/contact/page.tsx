@@ -7,7 +7,9 @@ function Contact() {
       <Header />
       <ContactForm
         title="Questions and Contact"
-        descriptionBefore="description"
+        descriptionBefore="I know taking the first step can feel overwhelming, but you don’t have to do this alone.
+Whether you’re looking for therapy, coaching, or a space to explore deeper healing, I’m here to
+help."
         descriptionAfter={
           <>
             <span className="block font-semibold text-gray-700 mb-1">
@@ -43,8 +45,9 @@ function Contact() {
             </span>
           </>
         }
-        name="name"
-        email="email"
+        name="Claudia Pache"
+        email="claudia.pache@gmail.com"
+        phone="352-657-0276"
       />
     </main>
   );

@@ -7,6 +7,7 @@ interface ContactFormProps {
   descriptionAfter?: React.ReactNode;
   name: string;
   email: string;
+  phone: string;
 }
 
 const ContactForm: React.FC<ContactFormProps> = ({
@@ -15,6 +16,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
   descriptionAfter,
   name,
   email,
+  phone,
 }) => {
   return (
     <div className="bg-white flex flex-col md:flex-row items-center justify-between p-8 rounded-lg shadow-md max-w-4xl mx-auto">
@@ -32,6 +34,9 @@ const ContactForm: React.FC<ContactFormProps> = ({
           </div>
           <div className="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-800">
             {email}
+          </div>
+          <div className="w-full px-4 py-3 bg-gray-100 rounded-md text-gray-800">
+            {phone}
           </div>
         </div>
         <p>{descriptionAfter}</p>
