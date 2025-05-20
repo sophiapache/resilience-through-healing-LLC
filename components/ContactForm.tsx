@@ -1,6 +1,5 @@
 // ContactForm.tsx
 import React from "react";
-import Image from "next/image";
 
 interface ContactFormProps {
   title: string;
