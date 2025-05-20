@@ -4,7 +4,7 @@ import { Noto_Serif_Display } from "next/font/google";
 import { Lexend } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 
-import "./globals.css";
+import "./styles/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
