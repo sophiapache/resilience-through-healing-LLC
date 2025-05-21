@@ -39,8 +39,7 @@ const TestimonialsGrid: React.FC<TestimonialsGridProps> = ({
                 </div>
               )}
 
-              <p className="text-gray-700 italic mb-4">"{testimonial.text}"</p>
-
+              <p className="text-gray-700 italic mb-4">“{testimonial.text}”</p>
               {testimonial.name && (
                 <h4 className="text-lg font-semibold text-gray-900">
                   {testimonial.name}

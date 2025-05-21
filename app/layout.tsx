@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import { Noto_Serif_Display } from "next/font/google";
 import { Lexend } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
