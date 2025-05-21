@@ -34,7 +34,7 @@ const TextImageSplit = () => {
             <h2 className="text-4xl font-bold text-[oklch(0.25_0.06_70)] mb-4">
               Rooted in Compassion
             </h2>
-            <p className="text-lg text-[oklch(0.30_0.05_60)] mb-4 leading-relaxed">
+            <span className="text-lg text-[oklch(0.30_0.05_60)] mb-4 leading-relaxed">
               <p className="mb-4">
                 When asked to write my story, I wasn’t sure I could come up with
                 anything “exciting” enough.{" "}
@@ -109,7 +109,7 @@ const TextImageSplit = () => {
                   True beauty comes from within.
                 </span>
               </p>
-            </p>
+            </span>
             <p className="text-[oklch(0.30_0.05_50)] leading-relaxed text-xl italic">
               “People will forget what you said or did, but they will never
               forget how you made them feel.” – Maya Angelou
