@@ -31,7 +31,7 @@ function AboutMe() {
     <main>
       <Header />
       <Hero />
-      <section className="bg-[oklch(0.97_0.02_70)] py-7 px-6">
+      <section className="bg-gradient-to-b from-[#fff7e2] via-[#f8f0e3] to-[#f0e6d5] py-7 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-3xl font-extrabold text-[oklch(0.25_0.06_70)] mb-3 justify-center">
             <div className="flex justify-center mt-1 mb-8 ">
@@ -53,7 +53,7 @@ function AboutMe() {
         </div>
       </section>
 
-      <section className="bg-[oklch(0.98_0.01_85)] py-16 px-6">
+      <section className="bg-gradient-to-b from-[#f0e6d5] to-[#e8dcc8] py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-semibold text-[oklch(0.25_0.06_70)] mb-2">
             My Specialties
@@ -62,7 +62,7 @@ function AboutMe() {
             My approach goes beyond traditional talk therapy, integrating
             mind-body techniques like Trauma-Sensitive Yoga. I focus on
             empowerment and individualized care to meet each client where they
-            are in their journey. There’s no one-size-fits-all therapy. Instead,
+            are in their journey. There's no one-size-fits-all therapy. Instead,
             we co-create a path that supports your unique needs and goals.
           </p>
 

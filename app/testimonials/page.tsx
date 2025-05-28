@@ -41,7 +41,7 @@ function Testimonials() {
   ];
 
   return (
-    <main>
+    <main className="bg-gradient-to-b from-[#fff7e2] via-[#f8f0e3] to-[#f0e6d5]">
       <Header />
       <TestimonialsGrid title="Testimonials" testimonials={testimonials} />
     </main>

@@ -17,7 +17,7 @@ function Services() {
     "Available for individuals and couples",
   ];
   return (
-    <main>
+    <main className="bg-gradient-to-b from-[#fff7e2] via-[#f8f0e3] to-[#f0e6d5]">
       <Header />
       <OfferListSection
         imageSrc="/blob.png"
