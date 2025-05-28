@@ -62,7 +62,7 @@ function AboutMe() {
             My approach goes beyond traditional talk therapy, integrating
             mind-body techniques like Trauma-Sensitive Yoga. I focus on
             empowerment and individualized care to meet each client where they
-            are in their journey. There's no one-size-fits-all therapy. Instead,
+            are in their journey. There’s no one-size-fits-all therapy. Instead,
             we co-create a path that supports your unique needs and goals.
           </p>
 
