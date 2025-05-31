@@ -11,7 +11,7 @@ export default function Home() {
   ];
   return (
     <main
-      className="min-h-screen bg-[oklch(0.98_0.03_80)] text-[oklch(0.30_0.05_100)] font-display
+      className="min-h-screen text-[oklch(0.30_0.05_100)] bg-[#f8f5f1] font-display
 "
     >
       <Header />

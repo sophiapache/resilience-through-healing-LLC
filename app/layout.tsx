@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${notoSerifDisplay.variable} ${playfair.variable} ${lexend.variable} antialiased font-display tracking-tight bg-[oklch(0.98_0.02_85)]`}
+        className={`${notoSerifDisplay.variable} ${playfair.variable} ${lexend.variable} antialiased font-display tracking-tight bg-[#f8f5f1]`}
       >
         {children}
       </body>
