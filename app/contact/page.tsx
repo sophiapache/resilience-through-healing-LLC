@@ -3,7 +3,7 @@ import ContactForm from "../../components/ContactForm";
 
 function Contact() {
   return (
-    <main className="bg-[oklch(0.98_0.02_85)] space-y-3">
+    <main className="bg-gradient-to-b from-[#f0e6d5] to-[#e8dcc8] space-y-3">
       <Header />
       <ContactForm
         title="Questions and Contact"

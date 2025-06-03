@@ -19,7 +19,7 @@ const OfferListSection = ({
   items,
 }: OfferListSectionProps) => {
   return (
-    <section className="bg-[oklch(0.98_0.02_85)] px-6 py-16">
+    <section className="bg-gradient-to-b from-[#f0e6d5] to-[#e8dcc8] px-6 py-16">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Image */}
         <div className="relative w-full h-[400px]">

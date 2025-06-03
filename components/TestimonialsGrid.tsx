@@ -18,7 +18,9 @@ const TestimonialsGrid: React.FC<TestimonialsGridProps> = ({
   className = "",
 }) => {
   return (
-    <section className={`bg-[oklch(0.98_0.02_85)] px-6 py-16 ${className}`}>
+    <section
+      className={`bg-gradient-to-b from-[#f0e6d5] to-[#e8dcc8] px-6 py-16 ${className}`}
+    >
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-12">{title}</h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
